@@ -1,4 +1,4 @@
-package OCT_14102024;
+package OCT_14102024TypeCast;
 
 public class TypeCastingDemo2
 {
