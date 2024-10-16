@@ -6,7 +6,8 @@ public class LargeNumDemo {
         int a=100;
         int b=25;
         int c=24;
-        int result = (a>b)?a:(b>c)?b:c;
+        //int result = (a>b)?a:(b>c)?b:c;
+        int result=a>=b && a>=c?a : (b>=c?b:c);
 
         System.out.println(result);//100
 
