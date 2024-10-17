@@ -8,7 +8,7 @@ public class GradeCalculation {
         System.out.println("Enter the Your Marks:");
         int mark = sc.nextInt();
 
-        if(mark>0 && mark<=100)
+        if(mark>=0 && mark<=100)
           {
              if (mark >= 90 && mark <= 100)
              {
